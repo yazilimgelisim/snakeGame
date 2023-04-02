@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+    flex-direction: column;
+    background-color: #232323;
+    color: white;
+}
+.game{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game .skor{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+canvas{
+    background-color: lightyellow;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+.game .ekran{
+    width: 300px;
+    height: 200px;
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #064663;
+    border-radius: 30px;
+    font-size: 25px;
+    position: absolute;
+}
+.ekran button{
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #FF6363;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ekran button:hover{
+    background-color: red;
+    width: 200px;
+}
+
